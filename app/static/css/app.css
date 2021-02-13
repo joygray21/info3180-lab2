@@ -1,3 +1,82 @@
 body {
     padding-top: 5rem;
 }
+
+#overview{
+    background-color: rgb(151, 64, 233);
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    color: white;
+}
+
+#details{
+   text-align: center;
+   color:rgb(128, 127, 122);
+   padding: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto auto auto auto;
+}
+
+#profileimg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#bio{
+    grid-column: 1/6;
+    grid-row: 1;
+}
+
+#postsNo{
+    grid-column: 2/3;
+    grid-row: 2;
+    color: black;
+    font-weight: bold;
+}
+
+#followingNo{
+    grid-column: 3/4;
+    grid-row: 2;
+    color: black;
+    font-weight: bold;
+}
+
+#followersNo{
+    grid-column: 4/5;
+    grid-row: 2;
+    color: black;
+    font-weight: bold;
+}
+
+#posts{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+#following{
+    grid-column: 3/4;
+    grid-row: 3;
+}
+
+#followers{
+    grid-column: 4/5;
+    grid-row: 3;
+}
+
+#followBtn{
+    grid-column: 3/4;
+    grid-row:4;
+    background-color: rgb(165, 85, 240);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(165, 85, 240);
+}
