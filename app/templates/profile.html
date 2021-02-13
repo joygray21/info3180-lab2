@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div id='overview'>
+    <img id="profileimg" src="{{url_for('static', filename='Joy.jpeg')}}" alt="Profile picture"> 
+    <h1>Joanna-Joy Gray</h1>
+    <p>
+        joyG <br>
+        Montego Bay, Jamaica <br>
+        {{ joinDate }}
+    </p>
+</div>
+<div id='details'>
+    <p>Also known as 'Joy', 'Jo', or even 'Kat', I am a 21 year old young lady who loves God, family and friends, nature and books.</p>
+    <p id='postsNo'>
+        2 Posts
+    </p>
+    <p id='followingNo'>
+        70 Following
+    </p>
+    <p id='followersNo'>
+        120 Followers
+    </p>
+    <button>Follow</button>
+</div>
+{% endblock %}
